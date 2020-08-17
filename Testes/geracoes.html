@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+    <h2>Quantas Gerações ja se passaram no Brasil desde 1500?</h2>
+
+<script>
+
+    function pulaLinha (){
+        document.write('<br>');
+    }
+
+    function mostra (frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoAtual = 2020;
+    var anoInicio = 1500;
+    var media = 28;
+    var numeroGeracoes = (anoAtual-anoInicio)/media;
+
+   mostra('Numero de gerações atualmente: ' + Math.round(numeroGeracoes))
+
+</script>
